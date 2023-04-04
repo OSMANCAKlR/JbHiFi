@@ -1,0 +1,132 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Games</title>
+    <script
+      src="https://kit.fontawesome.com/a0cd6d5d3b.js"
+      crossorigin="anonymous"
+    ></script>
+ </head>
+ <body>
+    <section id="landing">
+        <nav>
+          <div class="nav__container">
+            <a href="index.html">
+              <img class="logo__img" src="/assets/ebgames_logo_white.svg" alt="" />
+            </a>
+            <div class="nav__search--bar">
+              <input type="search" class="nav__search" placeholder="Search" />
+              <i class="fa-solid fa-magnifying-glass search__button"></i>
+            </div>
+            <a href="">
+              <div class="nav__link">
+                <i class="fa-solid fa-store"></i>
+                <div class="nav__header">
+                  <div class="nav__main--text">Choose a store</div>
+                  <div class="nav__sub--text">for product availability</div>
+                </div>
+                <i class="fa-solid fa-ellipsis-vertical"></i>
+              </div>
+            </a>
+            <a href="">
+              <div class="nav__link">
+                <i class="fa-regular fa-circle-user"></i>
+                <div class="nav__header">
+                  <div class="nav__main--text">EB World</div>
+                  <div class="nav__sub--text">Sign in or sign up</div>
+                </div>
+                <i class="fa-solid fa-ellipsis-vertical"></i>
+              </div>
+            </a>
+            <a href="">
+              <div class="nav__link">
+                <i class="fa-solid fa-cart-shopping"></i>
+              </div>
+              <div class="nav__link--menu">
+                <i class="fa-solid fa-bars"></i>
+              </div>
+            </a>
+          </div>
+        </nav>
+        <div class="nav__bar">
+          <div class="container">
+            <div class="row">
+              <div class="nav__bar__row">
+                <div class="nav__bar__links">
+                  <a class="nav__bar__link" href="">PlayStation</a>
+                </div>
+                <div class="nav__bar__links">
+                  <a class="nav__bar__link" href="">Nintendo Switch</a>
+                </div>
+                <div class="nav__bar__links">
+                  <a class="nav__bar__link" href="">Xbox</a>
+                </div>
+                <div class="nav__bar__links">
+                  <a class="nav__bar__link" href="">PC</a>
+                </div>
+                <div class="nav__bar__links">
+                  <a class="nav__bar__link" href="">Trading Cards</a>
+                </div>
+                <div class="nav__bar__links">
+                  <a class="nav__bar__link" href="">Pop! Vinyls</a>
+                </div>
+                <div class="nav__bar__links">
+                  <a class="nav__bar__link" href="">Apparel</a>
+                </div>
+                <div class="nav__bar__links">
+                  <a class="nav__bar__link" href="">Toys & Hobbies</a>
+                </div>
+                <div class="nav__bar__links">
+                  <a class="nav__bar__link" href="">More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="video__games">
+        <div class="container">
+            <div class="row">
+                <h1 class="games__title">Video Games</h1>
+                <div class="filter__container">
+                  <p class="filter__title">All Games</p>
+                  <div class="nav__search--bar">
+                    <input type="search" oninput="filterName(event)" id="search" class="nav__search" placeholder="Search" />
+                    <i class="fa-solid fa-magnifying-glass search__button"></i>
+                  </div>
+                  <select id="filter" onchange="filterGames(event)">
+                    <option value="" disabled selected>Sort</option>
+                    <option value="LOW_TO_HIGH" >Price, Low to High</option>
+                    <option value="HIGH_TO_LOW" >Price, High to Low</option>     
+                  </select>
+                </div>
+                <div class="games">
+                  <i class="fas fa-spinner games__loading--spinner"></i>
+                </div>
+                <div class="games-list">
+            <!-- <div class="game">
+          <div class="game-card">
+            <div class="game-card__container">
+                <img class="game__img" src="" alt="">
+                <p class="game__title">Game-title</p>
+                <p class="game__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum aliquam totam vel, itaque corrupti eius voluptates sed exercitationem sit blanditiis asperiores neque consectetur id consequatur.</p>
+                <p class="game__price"> </p>
+                <p class="game__rating">Rating</p>
+                <button class="game__button">Buy Now</button>
+            </div>
+          </div>
+        </div> -->
+      </div>
+            </div>
+        </div>
+      </section>
+      <footer>
+
+      </footer>
+ </body>
+ <script src="games.js"></script>
+ </html>

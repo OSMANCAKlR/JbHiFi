@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EB Games - Home</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/a0cd6d5d3b.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <section id="landing">
+      <nav>
+        <div class="nav__container">
+          <img class="logo__img" src="/assets/ebgames_logo_white.svg" alt="" />
+          <div class="nav__search--bar">
+            <input type="search" class="nav__search" placeholder="Search" />
+            <i class="fa-solid fa-magnifying-glass search__button"></i>
+          </div>
+          <a href="">
+            <div class="nav__link">
+              <i class="fa-solid fa-store"></i>
+              <div class="nav__header">
+                <div class="nav__main--text">Choose a store</div>
+                <div class="nav__sub--text">for product availability</div>
+              </div>
+              <i class="fa-solid fa-ellipsis-vertical"></i>
+            </div>
+          </a>
+          <a href="">
+            <div class="nav__link">
+              <i class="fa-regular fa-circle-user"></i>
+              <div class="nav__header">
+                <div class="nav__main--text">EB World</div>
+                <div class="nav__sub--text">Sign in or sign up</div>
+              </div>
+              <i class="fa-solid fa-ellipsis-vertical"></i>
+            </div>
+          </a>
+          <a href="">
+            <div class="nav__link">
+              <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+          </a>
+        </div>
+      </nav>
+      <div class="nav__bar">
+        <div class="container">
+          <div class="row">
+            <div class="nav__bar__row">
+              <div class="nav__bar__links">
+                <a class="nav__bar__link" href="">PlayStation</a>
+              </div>
+              <div class="nav__bar__links">
+                <a class="nav__bar__link" href="">Nintendo Switch</a>
+              </div>
+              <div class="nav__bar__links">
+                <a class="nav__bar__link" href="">Xbox</a>
+              </div>
+              <div class="nav__bar__links">
+                <a class="nav__bar__link" href="">PC</a>
+              </div>
+              <div class="nav__bar__links">
+                <a class="nav__bar__link" href="">Trading Cards</a>
+              </div>
+              <div class="nav__bar__links">
+                <a class="nav__bar__link" href="">Pop! Vinyls</a>
+              </div>
+              <div class="nav__bar__links">
+                <a class="nav__bar__link" href="">Apparel</a>
+              </div>
+              <div class="nav__bar__links">
+                <a class="nav__bar__link" href="">Toys & Hobbies</a>
+              </div>
+              <div class="nav__bar__links">
+                <a class="nav__bar__link" href="">More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <main>
+      <section id="slideshow">
+        <div class="container">
+          <div class="row">
+            <img
+              class="slideshow__img"
+              src="assets/oa-hogwarts-legacy-lg.a19a04f1.jpg"
+              alt="image1"
+            />
+            <img
+              class="slideshow__img"
+              src="/assets/20-to-start-23-hogwarts-kirby-jedi-lg.webp"
+              alt="image2"
+            />
+            <img
+              class="slideshow__img"
+              src="/assets/oa-dualsense-edge-2nd-shipment-lg.webp"
+              alt="image3"
+            />
+            <img
+              class="slideshow__img"
+              src="/assets/oa-psvr-2-preorder-lg.webp"
+              alt="image4"
+            />
+          </div>
+        </div>
+      </section>
+      <section id="items">
+        <div class="row">
+          <div class="items__wrapper">
+            <div class="item">
+              <div class="item__logo">
+                <i class="fa-brands fa-playstation"></i>
+              </div>
+              <p class="item__title">PlayStation 5</p>
+            </div>
+            <div class="item">
+              <div class="item__logo">
+                <i class="fa-solid fa-gamepad"></i>
+              </div>
+              <p class="item__title">Nintendo Switch</p>
+            </div>
+            <div class="item">
+              <div class="item__logo">
+                <i class="fa-brands fa-xbox"></i>
+              </div>
+              <p class="item__title">Xbox Series X | S</p>
+            </div>
+            <div class="item">
+              <div class="item__logo">
+                <i class="fa-solid fa-mobile-screen-button"></i>
+              </div>
+              <p class="item__title">Phones</p>
+            </div>
+            <div class="item">
+              <div class="item__logo">
+                <i class="fa-solid fa-compact-disc"></i>
+              </div>
+              <p class="item__title">Pop! Vinyls</p>
+            </div>
+            <div class="item">
+              <div class="item__logo">
+                <i class="fa-solid fa-user-tie"></i>
+              </div>
+              <p class="item__title">Apparel</p>
+            </div>
+          </div>
+          <section id="view__games">
+            <div class="container">
+              <div class="row">
+                <h2 class="games__title">All Games</h2>
+                <div class="button">
+                  <button onclick="showUserPosts()" class="btn">View Games</button>
+                </div>
+              </div>
+            </div>
+            </section>
+        </div>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+  
+</html>
